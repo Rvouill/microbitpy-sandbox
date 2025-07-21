@@ -78,16 +78,16 @@ with serial.Serial('/dev/tty.usbmodem111402', 115200, timeout=1) as ser:
 - Run the Python script:
 
   ```bash
-  python3 microbit/microbit-test.py
+  python3 microbit-test.py
   ```
 
-- Press Button A → You should see:
+- On Micro:bit Press Button A → You should see:
 
   ```bash
   🅰 PING received from micro:bit!
   ```
 
-- Press Button B → You should see:
+- On Micro:bit Press Button B → You should see:
   ```bash
   🅱 PONG received from micro:bit!
   ```
